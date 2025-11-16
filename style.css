@@ -6,20 +6,24 @@
 }
 html,
 body {
-  background-color: #58035b;
+  /* background-color: #58035b; */
   height: 100%;
   width: 100%;
   color: #fff;
 }
 
 .container {
-  height: 100vh;
+  /* height: 100; */
+  padding: 50px;
+  /* width: 600px; */
   width: 100%;
-  border: 5px solid #fff;
+  border: 10px solid #590000;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 50px;
+  /* flex-shrink: 0; */
+  flex-wrap: wrap;
 }
 
 .container div {
@@ -37,5 +41,7 @@ body {
   background-color: lightgreen;
 }
 .child4 {
-  background-color: crimson;
+  background-color: rgb(20, 43, 220);
+  width: 200px;
+  height: 200px;
 }
