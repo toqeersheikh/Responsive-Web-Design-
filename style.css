@@ -15,8 +15,20 @@ body {
   height: 1000px;
   background-color: crimson;
   border: 3px solid blue;
+  font-size: 20px;
 }
-
+h1 {
+  color: #fff;
+  font-size: 5em;
+  text-align: center;
+  /* 1em=font size mentioned in parent element */
+}
+h2 {
+  font-size: 2 rem;
+  color: #fff;
+  text-align: center;
+  /* 1 rem= font size of root element by default it is 16px */
+}
 .child1 {
   height: 20vh;
   width: 20vw;
