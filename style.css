@@ -19,8 +19,8 @@ body {
 }
 h1 {
   color: #fff;
-  font-size: 5em;
-  text-align: center;
+  width: 30ch;
+  /* text-align:     center; */
   /* 1em=font size mentioned in parent element */
 }
 h2 {
@@ -29,16 +29,11 @@ h2 {
   text-align: center;
   /* 1 rem= font size of root element by default it is 16px */
 }
-.child1 {
-  height: 20vh;
-  width: 20vw;
-  background-color: lightseagreen;
-  border: 2px solid white;
-  margin-bottom: 20px;
+p {
+  color: #fff;
+  font-size: 20px;
 }
-.child2 {
-  height: 20vh;
-  width: 40vmin;
-  background-color: lightgreen;
-  border: 2px solid white;
+.lastPara {
+  margin-top: 4lh;
+  color: #fff;
 }
