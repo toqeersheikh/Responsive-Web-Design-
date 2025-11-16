@@ -11,15 +11,15 @@ body {
   width: 100%;
 }
 .parent {
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 50%;
   background-color: crimson;
   border: 3px solid blue;
 }
 
 .child {
-  height: 200px;
-  width: 200px;
+  height: 20%;
+  width: 20%;
   background-color: lightseagreen;
   border: 2px solid white;
 }
