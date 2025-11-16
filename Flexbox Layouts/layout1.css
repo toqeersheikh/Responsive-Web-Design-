@@ -21,25 +21,24 @@ body {
 }
 .container {
   display: flex;
-  width: 100%;
-  height: 60vh;
-  /* border: 2px solid blue; */
-  /* justify-content: space-between; */
-  background-color: rgb(51, 152, 152);
-  flex-flow: 1fr 2fr 1fr;
 }
 .article {
   background-color: lightcoral;
   flex-grow: 4;
 }
-.aside {
-  background-color: blueviolet;
-  flex-grow: 1;
-}
+
 .nav {
   flex-grow: 1;
-
   background-color: lightsalmon;
+  height: 100vh;
+}
+.content {
+  flex-grow: 5;
+  height: 100vh;
+}
+.col2 {
+  display: flex;
+  flex-direction: column;
 }
 .footer {
   background-color: crimson;
