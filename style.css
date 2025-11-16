@@ -19,9 +19,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
-.child {
-  font-size: 60px;
-  font-weight: 600px;
+.container div {
+  height: 200px;
+  width: 200px;
+}
+
+.child1 {
+  background-color: limegreen;
+}
+.child2 {
+  background-color: lightpink;
+}
+.child3 {
+  background-color: lightgreen;
+}
+.child4 {
+  background-color: crimson;
 }
