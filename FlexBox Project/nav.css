@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #f5f5f7;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #f5f5f7;
+
+  height: 2000px;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #ffffff;
+  height: 40px;
+}
+.logo {
+  height: 20px;
+  width: 20px;
+}
+.search-icon {
+  height: 16px;
+  width: 16px;
+}
+.shop-icon {
+  height: 16px;
+  width: 16px;
+}
+a {
+  text-decoration: none;
+  color: #595959;
+  font-size: 12px;
+}
+.hero {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #222;
+  background-color: #f5f5f7;
+}
+.hero img {
+  height: 500px;
+  /* width: 500px; */
+  gap: 20px;
+}
+.hero h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.hero h3 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.hero .btn-shop {
+  background-color: #0077ed;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 20px;
+}
+.iphone {
+  text-align: center;
+  height: 542px;
+  background-color: #000000;
+  padding-top: 3%;
+}
+.iphone h1 {
+  font-size: 38px;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+.iphone h3 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.iphone img {
+  width: 600px;
+}
