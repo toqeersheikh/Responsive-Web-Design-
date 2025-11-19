@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: sans-serif;
+  /* background-color: #0e0e0e; */
+}
+.grid-container {
+  margin: 0 auto;
+  /* max-width: 1200px; */
+  width: 100%;
+  /* color: #fff;   */
+  color: #333;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid-item {
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+}
+
+.navbar {
+  grid-column: 1 / span 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #c3c3c3;
+}
+.navbar h3 {
+  font-size: 28px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-center;
+  gap: 10px;
+}
+.logo .yt-img {
+  margin-left: 30px;
+  height: 50px;
+  width: 50px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  /* padding: 0 15px; */
+  gap: 10px;
+}
+.search button {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #8e8e8e;
+  border-radius: 25px;
+  padding: 0 12px;
+}
+.search button input {
+  font-size: 16px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 10px;
+}
+.profile div {
+  width: 40px; /* same as YouTube icon size */
+  height: 40px;
+  border-radius: 50%; /* makes the circle */
+  overflow: hidden; /* hides corners of the image */
+  cursor: pointer;
+}
+.profile .profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* keeps image centered & cropped */
+  display: block;
+}
+.create-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 16px;
+  background-color: #0e0e0e;
+}
+.create-btn span {
+  margin-right: 10px;
+}
+.navbar input {
+  padding: 15px;
+  width: 500px;
+  border-radius: 20px;
+  border: none;
+}
+.play-window {
+  grid-column: span 2;
+  /* height: 100vh; */
+  width: 700px;
+}
+/* .side-bar {
+  height: 100vh;
+} */
+.title {
+  padding: 15px 0;
+  font-size: 30px;
+}
+.play {
+  height: 70vh;
+  width: 65vw;
+  /* border: 2px solid red; */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.play iframe {
+  border-radius: 20px;
+}
+.description {
+  /* height: 100px; */
+  width: 50 vw;
+  padding: 20px;
+  border-top: 1px solid #c3c3c3;
+
+  margin-bottom: 20px;
+}
+.comment-section {
+  height: 100%;
+  width: 50 vw;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid #c3c3c3;
+}
+
+.side-bar h4 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.side-bar img {
+  height: 300px;
+  width: 200px;
+}
+p {
+  font-size: 18px;
+}
