@@ -39,7 +39,8 @@ li {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  justify-items: center;
+  /* justify-items: center; */
+  justify-content: center;
   column-gap: 7px;
   row-gap: 40px;
 }
